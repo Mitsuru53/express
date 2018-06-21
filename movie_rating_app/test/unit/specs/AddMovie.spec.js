@@ -14,7 +14,6 @@ describe('AddMovie', () => {
   })
 
   it("equals years to ['2018', '2017', '2016', '2015']", () => {
-    console.log(vm.years)
     expect(vm.years).to.eql(['2018', '2017', '2016', '2015']);
   });
 
