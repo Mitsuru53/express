@@ -105,8 +105,8 @@ export default {
           bus.$emit('refreshUser');
           this.$router.push({ name: 'Home' });
         })
-        .catch(() => {
-
+        .catch((err) => {
+          console.log(err)
         });
     },
   },
